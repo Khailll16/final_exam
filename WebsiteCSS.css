@@ -1,0 +1,1200 @@
+
+/*navigator*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    overflow-x: hidden;
+}
+.navigator{
+   position: fixed;
+ box-shadow: 0px 0px 1px 1px;
+ background-color: white;
+ z-index: 200;
+ padding-bottom: 10px;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 70px;
+}
+.menu{
+    display: flex;
+}
+.menu .list{
+    display: flex;
+    margin-left: 500px;
+    margin-top: 30px;  
+}
+.menu .list li{
+    list-style: none;   
+    color: black;
+    padding-right: 40px;
+    font-size: large;
+}
+.menu .list a{
+   color: black;
+    text-decoration: none;
+    display: flex;
+}
+.list a:hover{
+   color: #A117EB;
+}
+.socialmedialogo{
+    display: flex;
+    margin-top: -43px;
+    padding-left: 1080px;
+}
+.github{
+    transition: transform .3s;
+
+   }
+.github img{
+   margin-left: 180px;
+  }
+.github:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.contactus{
+    padding-left: 30px;
+    margin-top: -5px;
+    padding-bottom: 10px;
+    padding-right: 65px;
+}
+.contactus .buttoncontact{
+    background-color: #A117EB;
+    border: #A117EB;
+    height: 45px;
+    width: 150px;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 7px;
+    transition: transform .3s;
+    color: white;
+}
+.buttoncontact:hover{
+    transform: scale(1.3);
+    cursor: pointer;   
+}
+
+ /*Mikhail Home*/
+
+.cover{
+    height: 741px;
+    width: 1513px;
+    background-color:#FAF8F4;
+    margin: 0%;
+    background: url(Images/linedesign.png) center center no-repeat;
+    background-size: cover;
+}
+.Greeting{
+    font-weight:700;
+    color: black;
+    font-size: 60px;
+    padding-top: 13%;
+    padding-left: 10%;
+    padding-bottom: 15%;
+    font-weight: bold;
+ }
+ .secondsen{
+    color:  #A117EB;
+ }
+ .hobbies{
+    color: #0D221B;
+    font-size: large;
+    font-size: 30px;
+ }
+ .boxme{
+    border-radius: 40px 40px 0px 0px;
+    margin-top: -240PX;
+    height: 245px;
+    width: 1513px;
+    background-color: #0D221B;
+ }
+ .boxme .sentence p{
+    width: 615px;
+    color: white;
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 155px;
+ }
+.cover .boxme .designbox .software img{
+    margin-left: 1230px;
+    margin-top: -500px;
+    padding-bottom: 500px;
+    position: absolute;
+ }
+
+ .cover .socialmedia{
+    margin-top: -87px;
+    margin-left: 400px;
+ }
+ .facebook1{
+    transition: transform .3s;
+ }
+ .facebook1:hover{
+    transform: scale(1.3);
+    cursor: pointer;   
+ }
+ .twitter1{
+    transition: transform .3s;
+ }
+ .twitter1:hover{
+    transform: scale(1.3);
+    cursor: pointer;   
+ }
+ .instagram1{
+    transition: transform .3s;
+ }
+ .instagram1:hover{
+    transform: scale(1.3);
+    cursor: pointer;   
+ }
+ 
+ .boxme .frame img{
+    margin-top: -545px;
+    margin-left: 890px;
+ }
+ .boxme .design img{
+    margin-top: -40%;
+    margin-left: 807px;
+ }
+ .socialmedia{
+    margin-top: -100px;
+ }
+
+
+
+
+
+ 
+ /*RheaHome*/
+
+
+
+
+ .cover1{
+   height: 741px;
+   width: 1513px;
+   background-color: #FAF8F4;
+   margin: 0%;
+   background: url(Images/linedesign.png) center center no-repeat;
+    background-size: cover;
+}
+.Greeting1{
+   font-weight:700;
+   color: black;
+   font-size: 60px;
+   padding-top: 13%;
+   padding-left: 45%;
+   padding-bottom: 15%;
+   font-weight: bold;
+}
+.secondsen1{
+   color:  #A117EB;
+}
+.hobbies1{
+   color: #0D221B;
+   font-size: large;
+   font-size: 30px;
+}
+.boxme1{
+   border-radius: 40px 40px 0px 0px;
+   margin-top: -240PX;
+   height: 245px;
+   width: 1513px;
+   background-color: #0D221B;
+}
+.boxme1 .sentence1 p{
+   width: 615px;
+   color: white;
+   padding-top: 50px;
+   font-size: 20px;
+   text-align: justify;
+   padding-left: 180px;
+}
+.boxme1 .frame1 img{
+   background-image: url(Images/frameprofile.png);
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.sentence1{
+   margin-left: 500px;
+}
+.cover1 .boxme1 .designbox1 .software1 img{
+   margin-top: -500px;
+   padding-bottom: 500px;
+}
+
+.cover1 .socialmedia1{
+   margin-top: -87px;
+   margin-left: 400px;
+}
+.facebook1{
+   transition: transform .3s;
+}
+.facebook1:hover{
+   transform: scale(1.3);
+   cursor: pointer;   
+}
+.twitter1{
+   transition: transform .3s;
+}
+.twitter1:hover{
+   transform: scale(1.3);
+   cursor: pointer;   
+}
+.instagram1{
+   transition: transform .3s;
+}
+.instagram1:hover{
+   transform: scale(1.3);
+   cursor: pointer;   
+}
+
+.boxme1 .frame1 img{
+   margin-top: -545px;
+   margin-left: 63px;
+}
+.boxme1 .design1 img{
+   margin-top: -40%;
+   margin-left: 450px;
+}
+.socialmedia1{
+   margin-top: -100px;
+   padding-left: 500px;
+}
+
+
+
+
+
+/*aboutmikhail*/
+ 
+ .boxaboutme{
+   height: 741px;
+   width: 1513px;
+   background-color:#FAF8F4;
+   margin: 0%;
+   padding-top: 30px;
+ }
+ .title1{
+   display: flex;
+   align-items: center;
+ }
+ .profile{
+   margin-left: 80px;
+ }
+ .intro{
+   display: block;
+   margin: auto;
+   padding-left: 500px;
+   position: absolute;
+   margin-top: 380px;
+ }
+ .intro2{
+   position: absolute;
+   margin-top: 148px;
+ }
+
+ .designbox2{
+   position: absolute;
+   padding-left: 1294.9px;
+   margin-top: 450px;
+   
+ }
+ .picrhea{
+   margin-bottom: -30.9px;
+ }
+ .intro .sent1{
+   font-size: 50px;
+   margin-bottom: -60px;
+ }
+ .intro .sent2{
+   font-size: 80px;
+ }
+ .boxabout{
+   background-color: #0D221B;
+   width: 1510px;
+   margin-top: -466px;
+   padding-bottom: 490px;
+   border-radius: 40px 40px 0px 0px;
+ }
+ .school{
+   position: absolute;
+   height: 350px;
+   width: 290px;
+   background-color: #A117EB;
+   text-align: center;
+   color: white;
+   font-size: large;
+   border-radius: 10px;
+   margin-left: 600px;
+   margin-top: 100px;
+ }
+ .house{
+   position: absolute;
+   height: 350px;
+   width: 290px;
+   background-color: #A117EB;
+   text-align: center;
+   color: white;
+   font-size: large;
+   border-radius: 10px;
+   margin-left: 905px;
+   margin-top: 100px;
+ }
+ .achieve{
+   position: absolute;
+   height: 350px;
+   width: 290px;
+   background-color: #A117EB;
+   text-align: center;
+   color: white;
+   font-size: large;
+   border-radius: 10px;
+   margin-left: 1210px;
+   margin-top: 100px;
+ }
+ .container1{
+   margin-left: -9px;
+ }
+
+
+
+/*aboutrhea*/
+
+
+.boxaboutme1{
+   height: 741px;
+   width: 1513px;
+   background-color:#FAF8F4;
+   margin: 0%;
+   padding-top: 30px;
+ }
+ .title2{
+   display: flex;
+   align-items: center;
+ }
+ .intro1{
+   display: block;
+   margin: auto;
+   padding-left: 350px;
+   position: absolute;
+   margin-top: 350px;
+ }
+ .intro3{
+   position: absolute;
+   margin-top: 148px;
+ }
+
+ .designbox3{
+   position: absolute;
+   margin-top: 420px;
+   
+ }
+ .picrhea1{
+   margin-bottom: -30.9px;
+   margin-left: 920px;
+ }
+ .intro1 .sent2{
+   font-size: 50px;
+   margin-bottom: -60px;
+ }
+ .intro1 .sent3{
+   font-size: 80px;
+ }
+ .boxabout1{
+   background-color: #0D221B;
+   width: 1510px;
+   margin-top: -466px;
+   padding-bottom: 490px;
+   border-radius: 40px 40px 0px 0px;
+ }
+ .school1{
+   position: absolute;
+   height: 350px;
+   width: 290px;
+   background-color: #A117EB;
+   text-align: center;
+   color: white;
+   font-size: large;
+   border-radius: 10px;
+   margin-left: 600px;
+   margin-top: 100px;
+ }
+ .house1{
+   position: absolute;
+   height: 350px;
+   width: 290px;
+   background-color: #A117EB;
+   text-align: center;
+   color: white;
+   font-size: large;
+   border-radius: 10px;
+   margin-left: 905px;
+   margin-top: 100px;
+ }
+ .achieve1{
+   position: absolute;
+   height: 350px;
+   width: 290px;
+   background-color: #A117EB;
+   text-align: center;
+   color: white;
+   font-size: large;
+   border-radius: 10px;
+   margin-left: 1210px;
+   margin-top: 100px;
+ }
+ .container2{
+   margin-left: -586px;
+ }
+
+
+
+/*SkillsMikhail*/
+.boxSkills{
+   height: 741px;
+   width: 1513px;
+   background-color:#FAF8F4;
+   margin: 0%;
+   padding-top: 30px;
+   background: url(Images/linedesign.png) center center no-repeat;
+   background-size: cover;
+}
+.titleskill{
+   margin-left: 40px;
+   background-color: #0D221B;
+   color: white;
+   margin-top: 90px;
+   height: 600px;
+   width: 600px;
+   padding: 10px;
+   margin-top: 45px;
+   border-radius: 40px;
+}
+.violetdesign1 img{
+   position: absolute;
+   margin-left: 130px   ;
+}
+.skillsreq{
+   text-align: justify;
+   margin-left: 100px;
+}
+.skillsreq h1{
+ font-size: 60px;
+ margin-left: 45px;
+}
+.titleskill h2{
+   font-size: 50px;
+   margin-top: -40px;
+   margin-left: 45px;
+}
+.skillsreq p{
+   font-size: 20px;
+   width: 510px;
+   margin-left: 45px;
+}
+h1{ /*change font family of heading*/
+	font-family: sans-serif;
+}
+
+li{ /*style the li tag*/
+	list-style-type: none;
+	font-family: sans-serif;
+}
+
+.skills{ /*style the text*/
+	width: 500px;
+   margin-left: 45px;
+	color: white;
+}
+
+.skills li{ /*set margin of li*/
+	margin: 20px 0;
+}
+
+.bar{ /*style the bar*/
+	background-color: #353b48;
+	display: block;
+	height: 2px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px #A117EB;
+}
+
+.bar span{ /*style the span tag*/
+	height: 2px;
+	float: left;
+	background-color:#A117EB;
+}
+
+.html{ /*set skills and animation of html*/
+	width: 80%;
+	animation: html 2s;
+}
+
+.css{ /*set skills and animation of css*/
+	width: 80%;
+	animation: css 2s;
+}
+
+.javascript{ /*set skills and animation of javascript*/
+	width: 50%;
+	animation: javascript 2s;
+}
+
+.jquery{ /*set skills and animation of jquery*/
+	width: 70%;
+	animation: jquery 2s;
+}
+
+@keyframes html{ /*animate html skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+}
+
+@keyframes css{ /*animate css skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+}
+
+@keyframes javascript{ /*animate javascript skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 50%;
+	}
+}
+
+@keyframes jquery{ /*animate jquery skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 70%;
+	}
+}
+
+.icontalent{
+   height: 620px;
+   width: 600px;
+   margin-top: -620px;
+   border-radius: 40px;
+   margin-left: 700px;
+}
+.icon1{
+   transition: transform .3s; 
+   height: 300px;
+   width: 280px;
+   background-color: #A117EB;
+   border-radius: 60px;
+   box-shadow: 3px 3px 3px 3px;
+}
+.icon1:hover{
+   transform: scale(1.3);
+   cursor: pointer;  
+}
+.icon1 img{
+   background-color: black;
+   border-radius: 50px;
+}.icon1 p{
+   margin-left: 30px;
+   font-size: 25px;
+   margin-top: 15px;
+   font-weight: bold;
+   position: absolute;
+}
+.icon2{
+   transition: transform .3s; 
+   height: 300px;
+   width: 280px;
+   background-color: #A117EB;
+   border-radius: 60px;
+   margin-left: 320px;
+   margin-top: -300px;
+   box-shadow: 3px 3px 3px 3px;
+}
+.icon2:hover{
+   transform: scale(1.3);
+   cursor: pointer;  
+}
+.icon2 img{
+   background-color: black;
+   border-radius: 50px;
+}
+.icon2 p{
+   margin-left: -110px;
+   font-size: 25px;
+   margin-top: -1px;
+   font-weight: bold;
+   position: absolute;
+   text-align: center;
+}
+.icon3{
+   transition: transform .3s; 
+   height: 300px;
+   width: 280px;
+   background-color: #A117EB;
+   border-radius: 60px;
+   margin-top: 20px;
+   box-shadow: 3px 3px 3px 3px;
+}
+.icon3:hover{
+   transform: scale(1.3);
+   cursor: pointer;  
+}
+.icon3 p{
+   margin-left: -110px;
+   font-size: 25px;
+   margin-top: 13px;
+   font-weight: bold;
+   position: absolute;
+   text-align: center;
+}
+.icon3 img{
+   background-color: black;
+   border-radius: 50px;
+}
+.icon4{
+   transition: transform .3s; 
+   height: 300px;
+   width: 280px;
+   background-color: #A117EB;
+   border-radius: 60px;
+   margin-left: 320px;
+   margin-top: -300px;
+   box-shadow: 3px 3px 3px 3px;
+}
+.icon4:hover{
+   transform: scale(1.3);
+   cursor: pointer;  
+}
+.icon4 img{
+   background-color: black;
+   border-radius: 50px;
+}
+.icon4 p{
+   margin-left: -110px;
+   font-size: 25px;
+   margin-top: 13px;
+   font-weight: bold;
+   position: absolute;
+   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*rheaskills*/
+
+.boxSkills1{
+   height: 741px;
+   width: 1513px;
+   background-color:#FAF8F4;
+   margin: 0%;
+   padding-top: 30px;
+   background: url(Images/linedesign.png) center center no-repeat;
+   background-size: cover;
+}
+.titleskill1{
+   margin-left: 680px;
+   background-color: #0D221B;
+   color: white;
+   margin-top: 90px;
+   height: 600px;
+   width: 600px;
+   padding: 10px;
+   margin-top: 45px;
+   border-radius: 40px;
+}
+.violetdesign img{
+   position: absolute;
+   margin-left: 1200px   ;
+}
+.skillsreq1{
+   text-align: justify;
+   margin-left: 100px;
+}
+.skillsreq1 h1{
+ font-size: 60px;
+ margin-left: 45px;
+}
+.titleskill1 h2{
+   font-size: 50px;
+   margin-top: -40px;
+   margin-left: 45px;
+}
+.skillsreq1 p{
+   font-size: 20px;
+   width: 510px;
+   margin-left: 45px;
+}
+h1{ /*change font family of heading*/
+	font-family: sans-serif;
+}
+
+li{ /*style the li tag*/
+	list-style-type: none;
+	font-family: sans-serif;
+}
+
+.skills1{ /*style the text*/
+	width: 500px;
+   margin-left: 45px;
+	color: white;
+}
+
+.skills1 li{ /*set margin of li*/
+	margin: 20px 0;
+}
+
+.bar1{ /*style the bar*/
+	background-color: #353b48;
+	display: block;
+	height: 2px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px #A117EB;
+}
+
+.bar1 span{ /*style the span tag*/
+	height: 2px;
+	float: left;
+	background-color:#A117EB;
+}
+
+.html1{ /*set skills and animation of html*/
+	width: 80%;
+	animation: html 2s;
+}
+
+.css1{ /*set skills and animation of css*/
+	width: 80%;
+	animation: css 2s;
+}
+
+.javascript1{ /*set skills and animation of javascript*/
+	width: 80%;
+	animation: javascript1 2s;
+}
+
+
+@keyframes html1{ /*animate html skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+}
+
+@keyframes css1{ /*animate css skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+}
+
+@keyframes javascript1{ /*animate javascript skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+}
+
+
+.icontalent1{
+   height: 620px;
+   width: 600px;
+   margin-top: -620px;
+   border-radius: 40px;
+   margin-left: 35px;
+}
+.icon5{
+   transition: transform .3s; 
+   height: 300px;
+   width: 280px;
+   background-color: #A117EB;
+   border-radius: 60px;
+   box-shadow: 3px 3px 3px 3px;
+}
+.icon5:hover{
+   transform: scale(1.3);
+   cursor: pointer;  
+}
+.icon5 img{
+   background-color: black;
+   border-radius: 50px;
+}.icon5 p{
+   margin-left: 30px;
+   font-size: 25px;
+   margin-top: 15px;
+   font-weight: bold;
+   position: absolute;
+}
+.icon6{
+   transition: transform .3s; 
+   height: 300px;
+   width: 280px;
+   background-color: #A117EB;
+   border-radius: 60px;
+   margin-left: 320px;
+   margin-top: -300px;
+   box-shadow: 3px 3px 3px 3px;
+}
+.icon6:hover{
+   transform: scale(1.3);
+   cursor: pointer;  
+}
+.icon6 img{
+   background-color: black;
+   border-radius: 50px;
+}
+.icon6 p{
+   margin-left: -110px;
+   font-size: 25px;
+   margin-top: -1px;
+   font-weight: bold;
+   position: absolute;
+   text-align: center;
+}
+.icon7{
+   transition: transform .3s;
+   height: 300px;
+   width: 280px;
+   background-color: #A117EB;
+   border-radius: 60px;
+   margin-top: 20px;
+   box-shadow: 3px 3px 3px 3px;
+   margin-left: 150px;
+}
+.icon7:hover{
+   transform: scale(1.3);
+   cursor: pointer;  
+}
+.icon7 p{
+   margin-left: -110px;
+   font-size: 25px;
+   margin-top: 13px;
+   font-weight: bold;
+   position: absolute;
+   text-align: center;
+}
+.icon7 img{
+   background-color: black;
+   border-radius: 50px;
+}
+
+/*Project Mikhail*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contactusMikhail*/
+
+.contact{
+   height: 741px;
+   width: 1513px;
+   background-color:#FAF8F4;
+   margin: 0%;
+   padding-top: 30px;
+}
+.personalinfo{
+margin-left: 250px;
+display: flex;
+}
+.personalinfo h1{
+   font-size: 50px;
+}
+.titlecontact{
+   text-align: center;
+   padding-top: 80px;
+}
+.titlecontact h1{
+   font-size: 65px;
+}
+.titlecontact p{
+   font-size: 26px;
+   margin-top: -30px;
+}
+.namemiktitle{
+   color: #A117EB;
+}
+.gmailmik{
+   display:flex;
+}
+.gmailmik p{
+   font-size: large;
+   margin-left: 8px; 
+}
+.numbermik{
+   display: flex;
+   margin-top: 15px;
+}
+.numbermik p{
+   font-size: large;
+   margin-left: 8px;
+}
+.locationmik{
+   display: flex;
+   margin-top: 15px;
+}
+.locationmik p{
+   font-size: large;
+   margin-left: 8px;
+}
+.socialmediamik{
+   margin-top: 50px;
+   margin-left : 100px;
+}
+
+/*contactusrhea*/
+
+
+.rheainfo{
+   margin-left: 150px;
+}
+.namerheatitle{
+   color: #A117EB;
+}
+.gmailrhea{
+   display:flex;
+}
+.gmailrhea p{
+   font-size: large;
+   margin-left: 8px;
+}
+.numberrhea{
+   display: flex;
+   margin-top: 15px;
+}
+.numberrhea p{
+   font-size: large;
+   margin-left: 8px;
+}
+.locationrhea{
+   display: flex;
+   margin-top: 15px;
+}
+.locationrhea p{
+   font-size: large;
+   margin-left: 8px;
+}
+.socialmediarhea{
+   margin-top: 50px;
+   margin-left : 100px;
+}
+
+/*design1*/
+
+.left{
+   position: absolute;
+   margin-top: 120px;
+}
+.right{
+   margin-top: -70px;
+   position: absolute;
+   margin-left: 1290px;
+}
+
+.designbox img{
+   animation: moveImage 2s ease infinite alternate;
+}
+
+@keyframes moveImage {
+   0% {
+       transform: translateX(0);
+   }
+   100% {
+       transform: translateX(20px); 
+   }
+}
+
+.designbox1 img{
+   animation: moveImage 2s ease infinite alternate;
+}
+
+@keyframes moveImage {
+   0% {
+       transform: translateX(0);
+   }
+   100% {
+       transform: translateX(20px); 
+   }
+}
+
+.profile img{
+   animation: moveImage 2s ease infinite alternate;
+}
+
+@keyframes moveImage {
+   0% {
+       transform: translateX(0);
+   }
+   100% {
+       transform: translateX(20px); 
+   }
+}
+
+.profile1 img{
+   animation: moveImage 2s ease infinite alternate;
+}
+
+@keyframes moveImage {
+   0% {
+       transform: translateX(0);
+   }
+   100% {
+       transform: translateX(20px); 
+   }
+}
+
+.designbox2 img{
+   animation: moveImage 2s ease infinite alternate;
+}
+
+@keyframes moveImage {
+   0% {
+       transform: translateX(0);
+   }
+   100% {
+       transform: translateX(20px); 
+   }
+}
+
+.designbox3 img{
+   animation: moveImage 2s ease infinite alternate;
+}
+
+@keyframes moveImage {
+   0% {
+       transform: translateX(0);
+   }
+   100% {
+       transform: translateX(20px); 
+   }
+}
+
+.left img{
+   animation: moveImage 2s ease infinite alternate;
+}
+
+@keyframes moveImage {
+   0% {
+       transform: translateX(0);
+   }
+   100% {
+       transform: translateX(20px); 
+   }
+}
+
+.right img{
+   animation: moveImage 2s ease infinite alternate;
+}
+
+@keyframes moveImage {
+   0% {
+       transform: translateX(0);
+   }
+   100% {
+       transform: translateX(20px); 
+   }
+}
+.violetdesign1 img{
+   animation: moveImage 2s ease infinite alternate;
+}
+
+@keyframes moveImage {
+   0% {
+       transform: translateX(0);
+   }
+   100% {
+       transform: translateX(20px); 
+   }
+}
+.violetdesign img{
+   animation: moveImage 2s ease infinite alternate;
+}
+
+@keyframes moveImage {
+   0% {
+       transform: translateX(0);
+   }
+   100% {
+       transform: translateX(20px); 
+   }
+}
+.boxicon{
+   animation: moveImage 2s ease infinite alternate;
+}
+
+@keyframes moveImage {
+   0% {
+       transform: translateX(0);
+   }
+   100% {
+       transform: translateX(20px); 
+   }
+}
+.boxicon1{
+   animation: moveImage 2s ease infinite alternate;
+}
+
+@keyframes moveImage {
+   0% {
+       transform: translateX(0);
+   }
+   100% {
+       transform: translateX(20px); 
+   }
+}
+
+
+
